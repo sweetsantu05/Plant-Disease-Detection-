@@ -1,132 +1,47 @@
-<h1>
- 📈Fuel-Consumption-prediction - 📑Brief Summary
-</h1>
-
-- Used pandas to import and Sanitized the dataset.
-- performed EDA using various python libraries like matplotlib,
-Seaborn, Numpy
-- Build ML models for prediction using libraries Scikit-learn, etc.
-- Used Streamlit to deploy the M.L. model.
-
-<h2>
- 🪨Challenges and 🧠learnings-
-</h2>
-  Chi-squared analysis | Scikit-learn | Streamlit | Team Support 
-  
-<h2>
- 🤖Techstack-
-</h2>
-  Python | Pandas | Matplotlib | Seaborn| Scikit-learn | Streamlit | Tableau
-
-Visit here for streamlit U.I. 👉 https://fuel-consumption-rating.streamlit.app/
-
-<h1>
- 👍Descriptive Explanation - 
-</h1>
-
-<h2> 
-  🥅Objective-
-</h2>
-This project is for learning purposes. So, considering that  got this data set from an Automobile dealer who deals in premium luxury cars and want to predict the Average fuel consumption of a vehicle basis on different parameters like- Vehicle class, Engine size, 
-Transmission, Fuel type, etc. and to create a U.I. for User to find the consumption according to thier vehicle's Parameter.
- 
-
-<h2> 
-  📑E.D.A.-
-</h2>
-
-- Before E.D.A did the data wrangling.
-- After cleaning did Univariate & Bivariate Analysis to understand the features.
-
-<h3> Univariate Analysis : </h3>
-
-- In this Visualization, we can observe how many vehicles are present in each Transmission type. 
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/rWBj1FLmYy.jpg">
-
-
-
-- In this Visualization, we can observe that the maximum number of vehicles consume fuel in the range of 7 to 14 liters for 100km
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/GNPrWaBHJb.png">
-
-for indepth Univariate analysis understanding 👉 https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/FUEL_CONSUMPTION_ANALYSIS_FILE.ipynb
-
-<h3> Bivariate Analysis : </h3>
-
-- In this pair plot Visualization, we can observe different scatter plots giving the relation between all features.
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/WIQ5l2SV3x.png">
-
-- In this bar graph Visualization, we can observe as the number of cylinders increases the fuel consumption is also increasing. 
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/PY7pHl2hHh.png">
-
-- This Correlation Heatmap gives relation between all features of data set.
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/7Jcc6Gaz2w.png">
-
-<h2> 
-  🤖M.L. Model-
-</h2>
-- In this project, tried a total of three machine learning models linear regression, decision tree, and random forest. at last, we found that the linear model is best suitable as per the accuracy as well as the above analysis we found the data is full filling the linear regression assumptions.
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/ujG4xnDxrx.png">
-
-
-<h2> 
-  🤖M.L. Model Deployment-
-</h2>
-- Used pickle library to create a sas (Statistical Analysis System) file for model deployment.
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/Gx4uLvvwma.png">
-
-
-<h2> 
-  💻User Interface-
-</h2>
-- For user interface used streamlit library.
-<br>
-<br>
-click on image to use U.I. :
-<a href="https://fuel-consumption-rating.streamlit.app/">
-<img src="https://github.com/manishhemnani06/FUEL_CONSUMPTION_ANALYSIS/blob/main/images/OCpdLj8B7l.png">
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ⭐Plant-Disease-Detection
+* Plant Disease is necessary for every farmer so we are created Plant disease detection using Deep learning. In which we are using convolutional Neural Network for classifying Leaf images into 39 Different Categories. The Convolutional Neural Code build in Pytorch Framework. For Training we are using Plant village dataset. Dataset Link is in My Blog Section.
+
+## ⭐Run Project in your Machine
+* You must have **Python3.8** installed in your machine.
+* Create a Python Virtual Environment & Activate Virtual Environment [Link](https://docs.python.org/3/tutorial/venv.html)
+* Install all the dependencies using below command
+    `pip install -r requirements.txt`
+* Go to the `Flask Deployed App` folder.
+* Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
+* Add the downloaded file in `Flask Deployed App` folder.
+* Run the Flask app using below command `python3 app.py`
+* You can also use downloaded file in `Model` Section and play with it using Jupyter Notebook.
+
+## ⭐Contribution ( Open Source )
+* This Project is now open source.
+* All the developers who are intrested they can contribute in this project.
+* Yo can make UI better , make Deep learning model more powerful , add informative markdown file in section...
+* If you will change Deep learning make sure you upload updated markdown file (.md) , .pdf and .ipynb in particular section.
+* Make sure your code is working. It will not have any type or error.
+* You have to fork this project then make a pull request after you testing will successful.
+* How to make pull request : https://opensource.com/article/19/7/create-pull-request-github
+
+
+## ⭐Testing Images
+
+* If you do not have leaf images then you can use test images located in test_images folder
+* Each image has its corresponding disease name, so you can verify whether the model is working perfectly or not
+
+## ⭐Blog Link
+<a href="https://medium.com/analytics-vidhya/plant-disease-detection-using-convolutional-neural-networks-and-pytorch-87c00c54c88f" target = "_blank">Plant Disease Detection Using Convolutional Neural Networks with PyTorch</a><br>
+
+## ⭐Deployed App
+<a href="https://plant-disease-detection-ai.herokuapp.com/" target = "_blank">Plant-Disease-Detection-AI</a><br>
+
+
+## ⭐Snippet of Web App :
+#### Main page
+<img src = "demo_images/1.png" > <br>
+#### AI Engine 
+<img src = "demo_images/2.png"> <br>
+#### Results Page 
+<img src = "demo_images/3.png"> <br>
+#### Supplements/Fertilizer  Store
+<img src = "demo_images/4.JPG"> <br>
+#### Contact Us 
+<img src = "demo_images/5.png"> <br><br>
